@@ -1,0 +1,250 @@
+body {
+    margin: 0;
+    background: linear-gradient(
+        to bottom,
+        #080808,
+        #000000
+    );
+}
+
+#top {
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, .9)),
+        url("5183221.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding-bottom: 80px;
+    padding-top:20px;
+}
+
+#menuButton {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+
+    z-index: 1000;
+
+    font-size: 40px;
+    text-decoration: none;
+
+    padding: 10px 15px;
+    border-radius: 8px;
+    color: white;
+    transition:0.1s ease-out;
+}
+
+#menuButton:hover {
+    transform: scale(1.2);
+    text-shadow: 0px 0px 10px rgba(231, 73, 73);
+    cursor: pointer;
+}
+
+#nav1 {
+    font-family: "inter", sans-serif;
+    font-weight: bolder;
+    font-size:20px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 350px;
+    height: 100vh;
+    background-color: rgb(15, 7, 131);
+
+    transform: translateX(100%);
+    transition: transform 0.2s ease-in-out;
+}
+
+#nav1.open {
+    transform: translateX(0);
+}
+
+#nav1 ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top: 80px;
+    width: 100%;
+}
+
+#nav1 li {
+    display:block;
+}
+
+#nav1 .a1 {
+    display: block;
+    padding: 15px 25px;
+    margin-top:20px;
+
+    color: white;
+    text-decoration: none;
+
+    transition: 0.2s;
+}
+
+#nav1 .a1:hover {
+    background-color: rgb(121, 161, 221);
+    color: white;
+    cursor: pointer;
+}
+
+#top h2 {
+    font-family: "inter", sans-serif;
+    color:white;
+    font-size:80px;
+    font-weight:bolder;
+    text-align: center;
+}
+
+#top p {
+    max-width: 1600px;
+    margin: 20px auto;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+
+    color: white;
+    font-size: 40px;
+    line-height: 1.6;
+    padding:10px;
+    border-radius:10px;
+}
+
+#p2 {
+    color:white;
+    text-align:center;
+    font-family:"inter", sans-serif;
+    font-size: 60px;
+    margin-top: 10px;
+}
+
+#lower {
+    background-image:
+        linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0.7) 0%,
+            rgba(0, 0, 0, 0.7) 25%,
+            rgba(0, 0, 0, 0.5) 50%,
+            rgba(0, 0, 0, 0.9) 75%,
+            rgba(0, 0, 0, 1.0) 100%
+        ),
+        url("bgulit.png");
+
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+#middle {
+    padding-top: 20px;
+}
+
+#activities {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0px;
+    width: 100%;
+    padding-bottom:100px;
+}
+
+.activity {
+    padding: 30px;
+    border-radius: 50px;
+    background-color: rgba(247, 16, 16, 0.3);
+    margin:20px;
+}
+
+.activity-box {
+    width: 100%;
+    height: 160px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-shrink: 0;
+
+    background-color: rgba(231, 73, 73);
+    border-radius: 20px;
+
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    
+    transition: 0.1s ease-in;
+}
+
+.activity-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px rgba(252, 127, 127, 0.5);
+    cursor: pointer;
+}
+
+.activity-info {
+    color: white;
+    font-family: "Inter", sans-serif;
+    padding: 15px 5px 5px;
+}
+
+.activity-info h2 {
+    margin: 0 0 15px;
+    font-size: 30px;
+}
+
+.activity-info p {
+    margin: 0;
+    font-size: 17px;
+    line-height: 1.6;
+}
+#end {
+    background-color: #302f2f;
+    color: white;
+    padding: 50px 0;
+    margin-top:0x;
+}
+
+#endpart {
+    width: 90%;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+#endpart h3 {
+    grid-column: 1 / -1;
+    margin: 0;
+    
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#endpart ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    font-size:20px;
+}
+
+#endpart li {
+    margin:17px auto;
+}
+
+#endpart li:hover{
+    color:blue;
+    cursor: pointer;
+}
+
+#logoend {
+    width:200px;
+    padding:0;
+}
+
+hr {
+    margin-top:100px;
+}
