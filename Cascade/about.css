@@ -2,27 +2,6 @@ body {
     margin:0;
 }
 
-#logo {
-    position: fixed;
-    top: 20px;
-    left: 30px;
-
-    margin: 0;
-
-    color: white;
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 32px;
-    font-weight: bold;
-
-    letter-spacing: 5px;
-    font-weight: normal;
-
-    z-index: 1000;
-
-    width:100px;
-    height:30px;
-}
-
 #menuButton {
     position: fixed;
     top: 20px;
@@ -54,7 +33,7 @@ body {
     right: 0;
     width: 350px;
     height: 100vh;
-    background-color: rgb(15, 7, 131);
+    background-color: rgb(153, 8, 32);
 
     transform: translateX(100%);
     transition: transform 0.2s ease-in-out;
@@ -92,6 +71,127 @@ body {
     background-color: rgb(121, 161, 221);
     color: white;
     cursor: pointer;
+}
+
+#logo {
+    position: fixed;
+    top: 20px;
+    left: 30px;
+
+    margin: 0;
+
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+
+    letter-spacing: 5px;
+    font-weight: normal;
+
+    z-index: 1000;
+
+    width:100px;
+    height:30px;
+}
+
+#intro {
+    min-height: 350px;
+    padding: 150px 10% 60px;
+
+    background-color: #080808;
+    color: white;
+
+    font-family: "Lexend Deca", sans-serif;
+}
+
+#intro h2 {
+    margin: 0 0 20px;
+
+    font-size: 45px;
+    text-align: left;
+}
+
+#intro p {
+    max-width: 700px;
+
+    margin: 0;
+
+    color: #aaa;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: left;
+}
+
+
+#devs {
+    padding: 50px 10% 100px;
+
+    background-color: #080808;
+    color: white;
+
+    font-family: "Lexend Deca", sans-serif;
+}
+
+#devs .profile {
+    width: 180px;
+    height: 180px;
+
+    flex-shrink: 0;
+}
+
+#devs .pic {
+    width: 100%;
+    height: 100%;
+}
+
+#devs .pic img {
+    width: 100%;
+    height: 100%;
+    object-position: center 20%;
+    object-fit: cover;
+}
+
+#devs .info {
+    flex: 1;
+}
+
+#devs .info h3 {
+    margin: 0 0 15px;
+    font-size: 28px;
+}
+
+#devs .info h5 {
+    margin: 8px 0;
+
+    font-size: 16px;
+    font-weight: normal;
+    color: #aaa;
+}
+
+#devs .pic {
+    width: 180px;
+    height: 180px;
+
+    border-radius: 10px;
+    overflow: hidden;
+
+    background-color: #222;
+}
+
+#devs .pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.developer {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+    padding: 40px 0;
+    border-bottom: 1px solid #333;
 }
 
 #end {
@@ -139,58 +239,4 @@ body {
 #logoend {
     width:200px;
     padding:0;
-}
-
-#appearance {
-    min-height: 600px;
-    padding: 150px 10% 80px;
-    background-color: #080808;
-    color: white;
-    font-family: "Lexend Deca", sans-serif;
-}
-
-#appearance > div {
-    display: flex;
-    align-items: center;
-
-    padding: 30px 0;
-    border-bottom: 1px solid #333;
-    gap:10%;
-}
-
-#appearance .icon1,
-#appearance .icon2,
-#appearance .icon3 {
-    width: 80px;
-    flex-shrink: 0;
-}
-
-#appearance .para1,
-#appearance .para2,
-#appearance .para3 {
-    flex: 1;
-}
-
-#appearance h3 {
-    margin: 0 0 15px;
-    font-size: 25px;
-    text-align: left;
-}
-#appearance p {
-    margin: 0;
-    max-width: 600px;
-    font-size: 16px;
-    color: #aaa;
-    text-align: center;
-    line-height: 1.5;
-}
-
-#appearance select {
-    width: 180px;
-    padding: 10px;
-
-    font-family: "Lexend Deca", sans-serif;
-    font-size: 16px;
-
-    border-radius: 6px;
 }

@@ -1,0 +1,46 @@
+body {
+    margin:0;
+    font-family: "Lexend Deca", sans-serif;
+    background-color:black;
+}
+
+#ref {
+    width:100%;
+}
+
+#ref h3 {
+    text-align:center;
+    font-size:60px;
+    color:rgb(255, 255, 255);
+}
+
+#ref .sd {
+    text-align:center;
+    font-size:40px;
+    padding:0;
+    color:white;
+}
+
+.re1 {
+    width:70%;
+    height:auto;
+    margin:100px auto;
+    background-color:yellow;
+    padding:50px;
+    border-radius:50px;
+    transition: 0.1s ease-in-out;
+}
+
+.re1:hover {
+    box-shadow: 0px 0px 30px rgba(250, 250, 250, 0.9);
+    transform: scale(1.05);
+}
+
+.re1 h4 {
+    font-size:30px;
+}
+
+.re1 h5 {
+    font-size:25px;
+}
+

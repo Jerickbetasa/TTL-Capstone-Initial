@@ -9,7 +9,7 @@ body {
 #intro {
     background-image: 
         linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0)),
-        url("bg.png");
+        url("/background/bg.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -49,7 +49,7 @@ body {
     right: 0;
     width: 350px;
     height: 100vh;
-    background-color: rgb(15, 7, 131);
+    background-color: rgb(153, 8, 32);
 
     transform: translateX(100%);
     transition: transform 0.2s ease-in-out;
@@ -227,7 +227,7 @@ body {
             rgba(0, 0, 0, 0.7) 75%,
             rgba(0, 0, 0, 0.7) 100%
         ),
-        url("bgcat.png");
+        url("background/bgcat.png");
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;

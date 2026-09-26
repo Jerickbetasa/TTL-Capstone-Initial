@@ -10,7 +10,7 @@ body {
 #top {
     background-image: 
         linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, .9)),
-        url("5183221.jpg");
+        url("/background/5183221.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -50,7 +50,7 @@ body {
     right: 0;
     width: 350px;
     height: 100vh;
-    background-color: rgb(15, 7, 131);
+    background-color: rgb(153, 8, 32);
 
     transform: translateX(100%);
     transition: transform 0.2s ease-in-out;

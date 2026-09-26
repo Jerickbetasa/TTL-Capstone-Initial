@@ -1,0 +1,31 @@
+body {
+    font-family:"lexend deca", sans-serif;
+    margin:0;
+    color:white;
+    background-color:black;
+}
+
+#video {
+    width:100% auto;
+    height:100%;
+    display:block;
+    margin:60px;
+}
+
+#video h3 {
+    text-align:center;
+    font-size:60px;
+}
+
+#video p {
+    text-align: center;
+    font-size:30px;
+}
+
+#video .vid {
+    margin-top:50px;
+    height:auto;
+    width:100%;
+    border-radius:40px;
+    transition: 0.1s ease-in;
+}
