@@ -82,8 +82,13 @@ body {
 #f1 {
     margin: 0;
     background-image: 
+<<<<<<< HEAD
         linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0)),
         url("background/bg.png");
+=======
+        linear-gradient(rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 1.0) 70%),
+        url("../background/bg.png");
+>>>>>>> cfadb30 (backgrounds)
     background-size: 100% auto;
     background-position: center top;
     background-repeat: no-repeat;
@@ -222,7 +227,7 @@ body {
             rgba(0, 0, 0, 0.7) 75%,
             rgba(0, 0, 0, 0.5) 100%
         ),
-        url("/background/bghome.png");
+        url("../background/bghome.png");
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -350,12 +355,12 @@ body {
     width: 100%;
     height: auto;
     border-radius: 40px;
-    transition:0.1s ease-in-out;
+    transition:0.15s ease-in-out;
 }
 
 .course-image img:hover {
     transform:scale(1.03);
-    border-radius:100px;
+    border-radius:100%;
 }
 
 .course-card h4 {
