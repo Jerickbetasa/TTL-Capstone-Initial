@@ -10,7 +10,7 @@ body {
 #top {
     background-image: 
         linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, .9)),
-        url("/background/5183221.jpg");
+        url("../background/5183221.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -129,7 +129,7 @@ body {
             rgba(0, 0, 0, 0.9) 75%,
             rgba(0, 0, 0, 1.0) 100%
         ),
-        url("bgulit.png");
+        url("../background/bgulit.png");
 
     background-size: cover;
     background-position: center top;
