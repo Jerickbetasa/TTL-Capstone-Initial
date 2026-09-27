@@ -9,7 +9,7 @@ body {
 #intro {
     background-image: 
         linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0)),
-        url("/background/bg.png");
+        url("../background/bg.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -227,7 +227,7 @@ body {
             rgba(0, 0, 0, 0.7) 75%,
             rgba(0, 0, 0, 0.7) 100%
         ),
-        url("background/bgcat.png");
+        url("../background/bgcat.png");
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
