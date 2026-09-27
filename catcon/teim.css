@@ -1,0 +1,24 @@
+body {
+    margin:0;
+    font-family:"Lexend Deca", sans-serif;
+    background-color:black;
+}
+
+#ppt {
+    margin:auto;
+    width:85%;
+}
+
+#ppt h2 {
+    text-align:center;
+    margin-top:50px;
+    color:white;
+    font-size:40px;
+}
+
+#ppt p {
+    margin-top:50px;
+    text-align:center;
+    color:white;
+    font-size:23px;
+}

@@ -22,10 +22,9 @@ body {
     font-size:30px;
 }
 
-#video .vid {
-    margin-top:50px;
-    height:auto;
+#video iframe {
+    margin-top:50px auto;
+    height:500px;
     width:100%;
     border-radius:40px;
-    transition: 0.1s ease-in;
 }
