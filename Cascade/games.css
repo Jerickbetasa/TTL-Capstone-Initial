@@ -129,12 +129,7 @@ body {
             rgba(0, 0, 0, 0.9) 75%,
             rgba(0, 0, 0, 1.0) 100%
         ),
-<<<<<<< HEAD
         url("../background/bgulit.png");
-=======
-        url("../bgulit.png");
->>>>>>> 7c4c27a (TEIM)
-
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
