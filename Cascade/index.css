@@ -82,13 +82,8 @@ body {
 #f1 {
     margin: 0;
     background-image: 
-<<<<<<< HEAD
-        linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0)),
-        url("background/bg.png");
-=======
         linear-gradient(rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 1.0) 70%),
         url("../background/bg.png");
->>>>>>> cfadb30 (backgrounds)
     background-size: 100% auto;
     background-position: center top;
     background-repeat: no-repeat;
